@@ -12,7 +12,7 @@ eureka:         #tells about the Eureka server details and its refresh time
  
 spring:     
   application:
-    name: inpy-auditException-service   #current service name to be used by the eureka server
+    name: Inpy_AuditExceptionLog   #current service name to be used by the eureka server
   security:
     user:
       name: admin
