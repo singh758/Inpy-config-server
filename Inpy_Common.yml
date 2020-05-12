@@ -26,7 +26,7 @@ spring:
 
 logging:
   file:
-    name: D:\microservices\logs\InpyLogs.log
+    name: D:\microservices\logs\InpyCommonLog.log
 
 
 management:
