@@ -17,7 +17,18 @@ spring:
     user:
       name: admin
       password: admin
+  cloud:
+    config:
+      allow-override:
+        uri : http://localhost:8888
 
 logging:
   file:
     name: D:\microservices\logs\InpyLogs.log
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
