@@ -1,0 +1,19 @@
+server:
+  port: 8001
+ 
+eureka:         #tells about the Eureka server details and its refresh time
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@localhost:8761/eureka
+
+ 
+spring:     
+  application:
+    name: inpy-common-service   #current service name to be used by the eureka server
+  security:
+    user:
+      name: admin
+      password: admin
