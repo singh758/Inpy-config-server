@@ -17,3 +17,7 @@ spring:
     user:
       name: admin
       password: admin
+
+logging:
+  file:
+    name: D:\microservices\logs\InpyLogs.log
