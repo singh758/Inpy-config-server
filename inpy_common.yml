@@ -12,7 +12,7 @@ eureka:         #tells about the Eureka server details and its refresh time
  
 spring:     
   application:
-    name: Inpy_Common
+    name: inpy_common
   profiles:
     active: dev
   security:
